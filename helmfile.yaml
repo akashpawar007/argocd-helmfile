@@ -1,11 +1,11 @@
 repositories:
- - name: prometheus-community
-   url: https://prometheus-community.github.io/helm-charts
+ - name: example
+   url: https://github.com/helm/examples.git
 
 releases:
 - name: prom-norbac-ubuntu
-  namespace: prometheus
-  chart: prometheus-community/prometheus
+  namespace: om
+  chart: charts/hello-world
   set:
   - name: rbac.create
     value: false
