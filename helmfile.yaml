@@ -1,11 +1,11 @@
 repositories:
- - name: nginx
-   url: https://github.com/techiescamp/helm-tutorial.git
+ - name: hello-world
+   url: https://github.com/akashpawar007/hello-world.git
 
 releases:
-- name: prom-norbac-ubuntu
+- name: hello-world
   namespace: om
-  chart: nginx-chart
+  chart: hello-world-chart
   set:
   - name: rbac.create
     value: false
