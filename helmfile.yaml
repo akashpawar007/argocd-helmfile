@@ -8,3 +8,5 @@ releases:
   chart: prometheus-community/prometheus
   set:
   - name: rbac.create
+  values:
+    ./override.yaml
