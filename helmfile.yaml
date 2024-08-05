@@ -9,4 +9,4 @@ releases:
   set:
   - name: rbac.create
   values:
-    - ./override.yaml
+    - ./values/override.yaml
