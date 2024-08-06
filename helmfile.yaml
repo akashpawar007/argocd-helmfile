@@ -10,3 +10,4 @@ releases:
   - name: rbac.create
   values:
     - ./values/override.yaml.gotmpl
+    - ./override/override.yaml.gotmpl
