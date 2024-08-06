@@ -3,3 +3,12 @@ replicaCount: 3
 # Number of old history to retain to allow rollback
 # Default Kubernetes value is set to 10
 revisionHistoryLimit: 14
+
+securityContext:
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  runAsUser: 999
+  runAsNonRoot: true
+  runAsGroup: 999
