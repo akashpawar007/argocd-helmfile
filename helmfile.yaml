@@ -5,7 +5,7 @@ repositories:
 releases:
 - name: prom-norbac-ubuntu
   namespace: om
-  chart: prometheus-community/prometheus
+  chart: prometheus-community/alertmanager
   set:
   - name: rbac.create
   values:
